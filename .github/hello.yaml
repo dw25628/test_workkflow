@@ -1,0 +1,13 @@
+name: Hello World
+on:
+  push:
+    branches:
+      -main
+
+jobs:
+  hello:
+    run-ons: ubuntu-24.04-arm
+
+    steps:
+      - name: Print Hello World
+        run: 'echo "Hello World"'
