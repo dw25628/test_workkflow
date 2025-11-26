@@ -9,5 +9,7 @@ jobs:
     runs-on: ubuntu-24.04-arm
 
     steps:
+      - name: LS
+        run: 'ls'
       - name: Print Hello World
         run: 'echo "Hello World"'
