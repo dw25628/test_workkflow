@@ -6,7 +6,7 @@ on:
 
 jobs:
   hello:
-    run-on: ubuntu-24.04-arm
+    runs-on: ubuntu-24.04-arm
 
     steps:
       - name: Print Hello World
